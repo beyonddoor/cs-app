@@ -1,0 +1,1 @@
+gcc -I3rd/tau/ -o out/float float.c && out/float
