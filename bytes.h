@@ -33,7 +33,7 @@ void show_unsigned_long_bytes(unsigned long value)
 
 void show_float_bytes(float value)
 {
-    show_bytes((byte_pointer)&value, sizeof(double));
+    show_bytes((byte_pointer)&value, sizeof(float));
 }
 
 void show_double_bytes(double value)
