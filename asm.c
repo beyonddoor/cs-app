@@ -1,11 +1,14 @@
 #include <stdio.h>
+#include <tau/tau.h>
+
+TAU_MAIN()
 
 void ams1()
 {
     
 }
 
-int main(int argc, char **argv)
+TEST(asm, ams1)
 {
-    return 0;
+    
 }
