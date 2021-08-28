@@ -14,6 +14,5 @@ int main()
     show_double_bytes((double)varInt);
 
     show_pointer_bytes(&varInt);
-
     return 0;
 }
